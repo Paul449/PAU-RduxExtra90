@@ -1,6 +1,6 @@
 import {useState} from 'react'
 
-function Login(){
+ export default function Login(){
 
     return(<>
     <div className='Login-form'>

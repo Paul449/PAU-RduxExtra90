@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-function signUp(){
+export default function signUp(){
     const [FirstName, setFirstName] = useState('');
     const [LastName, setLastName] = useState('');
     const [Email, setEmail] = useState('');
